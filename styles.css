@@ -1,0 +1,117 @@
+.container,
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+.main {
+  text-align: center;
+  width: 100%;
+}
+.main h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 54px;
+  color: #8d3b72;
+  padding-top: 100px;
+  margin: 0;
+}
+.main h4 {
+  font-family: "Oswald", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+  font-weight: lighter;
+  color: #8d3b72;
+}
+.section {
+  height: 700px;
+  z-index: 2;
+  overflow: hidden;
+}
+.imgClass {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+.five img {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+.four img {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+.main {
+  background-color: rgba(210, 127, 145, 0.5);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.one {
+  height: 700px;
+  z-index: 2;
+  overflow: hidden;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  background-image: url("img/sparkle.jpg");
+  background-size: cover;
+}
+.one img {
+  opacity: 0.4;
+}
+.six img {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+.three img {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+.two img {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+.five,
+.three {
+  background-color: rgba(210, 127, 145, 0.5);
+}
+.five img,
+.three img {
+  opacity: 0.4;
+}
+.four {
+  background-color: rgba(210, 127, 145, 0.8);
+}
+.four img {
+  opacity: 0.4;
+}
+.five {
+  background-color: rgba(210, 127, 145, 0.5);
+}
+.five img {
+  opacity: 0.6;
+}
+.blank {
+  height: 400px;
+}
+.boxContainer {
+  vertical-align: middle;
+  margin: 0 auto;
+  padding-top: 8%;
+}
+.box {
+  height: 180px;
+  width: 180px;
+  margin-left: 80px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: rgba(210, 127, 145, 0.5) 10px solid;
+  border-left: rgba(210, 127, 145, 0.5) 10px solid;
+  display: inline-block;
+}

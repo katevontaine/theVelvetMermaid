@@ -1,0 +1,106 @@
+@import "colors.less";
+@import "font.less";
+.container,
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+.main {
+  text-align: center;
+  width: 100%;
+
+}
+.main h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 54px;
+  color: @magenta;
+  padding-top: 100px;
+  margin: 0;
+}
+.main h4 {
+  font-family: "Oswald", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: lighter;
+  color: @magenta;
+}
+.section {
+  height: 700px;
+  z-index: 2;
+  overflow: hidden;
+}
+.imgClass {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+.five img {
+  .imgClass;
+}
+.four img {
+  .imgClass;
+}
+.main {
+  background-color: @rose-pink;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.one {
+  .section;
+  .imgClass;
+  background-image: url("img/sparkle.jpg");
+  background-size: cover;
+  img {
+    opacity: 0.4;
+  }
+}
+.six img {
+  .imgClass;
+}
+.three img {
+  .imgClass;
+}
+.two img {
+  .imgClass;
+}
+.five,
+.three {
+  background-color: @rose-pink;
+  img {
+    opacity: 0.4;
+  }
+}
+.four {
+  background-color: rgba(210, 127, 145, .8);
+  img {
+    opacity: 0.4;
+  }
+}
+.five {
+  background-color: @rose-pink;
+  img {
+    opacity: 0.6;
+  }
+}
+.blank {
+  //put rose pink to white here with purple writing, grey writing
+  height: 400px;
+}
+.boxContainer {
+  vertical-align: middle;
+  margin: 0 auto;
+  padding-top: 8%;
+}
+.box {
+  height: 180px;
+  width: 180px;
+  margin-left: 80px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: @rose-pink 10px solid;
+  border-left: @rose-pink 10px solid;
+  display: inline-block;
+}
